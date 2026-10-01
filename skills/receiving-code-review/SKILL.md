@@ -203,3 +203,12 @@ You understand 1,2,3,6. Unclear on 4,5.
 ## GitHub Thread Replies
 
 When replying to inline review comments on GitHub, reply in the comment thread (`gh api repos/{owner}/{repo}/pulls/{pr}/comments/{id}/replies`), not as a top-level PR comment.
+
+## Fork customization (yenalee04)
+
+이 포크에서만 쓰는 규칙이다. 위 원본 규칙과 함께 지킨다. 바꾼 이유와 기록은 저장소 맨 위의 `FORK.md`에 있다. 사용자에게 하는 말은 한국어로, 쉬운 말로 쓴다.
+
+- 리뷰 내용이 애매할 때, 바로 묻기 전에 먼저 조사한다. 관련 파일, 이전 커밋, PR 본문, 사용자가 직접 쓴 적용 내용부터 읽는다. 조사해도 모르는 것만 묻는다.
+- 리뷰어 댓글만 보지 말고, 그 댓글이 가리키는 사용자 본인의 글(적용 내용, 결정 기록)을 먼저 읽는다.
+- PR의 현재 상태(열림, 머지, 닫힘)는 메모나 인계 문서를 믿지 말고 `gh pr view`로 확인한다.
+- 리뷰어에게 보낼 답글 초안은 비유나 직역 없이, 리뷰어가 처음 읽어도 이해되는 문장으로 쓴다.

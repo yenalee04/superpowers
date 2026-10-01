@@ -202,3 +202,12 @@ them to review the plan and choose an execution method before implementation.
 
 **If Native chosen:**
 - **REQUIRED SUB-SKILL:** Use superpowers:executing-plans
+
+## Fork customization (yenalee04)
+
+이 포크에서만 쓰는 규칙이다. 위 원본 규칙과 함께 지킨다. 바꾼 이유와 기록은 저장소 맨 위의 `FORK.md`에 있다. 사용자에게 하는 말은 한국어로, 쉬운 말로 쓴다.
+
+- 계획 파일 저장 위치는 그 프로젝트의 `CLAUDE.md`가 정한 곳을 따른다. 정한 곳이 없으면 `docs/superpowers/plans/`에 바로 쓰지 말고 사용자에게 묻는다.
+- 단계마다 예상 소요 시간을 적는다. 추정이면 "추정"이라고 쓴다.
+- 이 대화 안에서 만든 번호나 이름(트랙 A/B, ①② 같은 것)을 계획 밖으로 내보내는 글에 그대로 쓰지 않는다. 내용으로 풀어 쓴다.
+- 이 포크에서는 `executing-plans`와 `subagent-driven-development`가 직접 호출 전용이다. 위의 실행 방법 선택 단계에서는 스킬을 자동으로 부르지 말고, 계획을 저장한 뒤 사용자에게 어떻게 진행할지 묻는다.

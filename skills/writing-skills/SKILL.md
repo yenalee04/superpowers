@@ -679,3 +679,12 @@ How future agents find your skill:
 6. **Loads example** (only when implementing)
 
 **Optimize for this flow** - put searchable terms early and often.
+
+## Fork customization (yenalee04)
+
+이 포크에서만 쓰는 규칙이다. 위 원본 규칙과 함께 지킨다. 바꾼 이유와 기록은 저장소 맨 위의 `FORK.md`에 있다. 사용자에게 하는 말은 한국어로, 쉬운 말로 쓴다.
+
+- 이 포크에서는 `test-driven-development`와 `systematic-debugging`이 직접 호출 전용이다. 위에서 그 스킬을 "REQUIRED BACKGROUND"로 요구하면, 스킬을 부르는 대신 `skills/test-driven-development/SKILL.md` 같은 파일을 직접 읽는다.
+- description은 한 줄로 쓴다. 값이 따옴표로 시작하면 그 따옴표로 값 전체를 감싼다. 따옴표가 값 중간에서 닫히면 파싱이 깨져 트리거 문구가 통째로 사라진다.
+- description에는 언제 쓰는지(트리거)와 함께 "범위 밖"(비슷하지만 이 스킬이 아닌 일, 그때 쓸 다른 스킬)을 적는다.
+- 스킬을 만들거나 크게 고친 뒤에는 실제 예시로 평가하고, 일부러 깨뜨려 보는 적대적 검토까지 거친 다음 완성이라고 말한다.
