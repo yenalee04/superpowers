@@ -21,9 +21,11 @@
 | 맨 끝에 `## Fork customization (yenalee04)` 단락 추가 | `verification-before-completion`, `receiving-code-review`, `writing-plans`, `writing-skills`의 `SKILL.md` | 근거 인용과 추정 표기, 묻기 전에 조사, 계획 저장 위치와 예상 시간, 스킬 description 규칙과 평가 같은 내 작업 규칙을 넣었다. |
 | `FORK.md` (이 파일) | 새로 만듦 | 원본 주소, 바꾼 것, 업데이트 받는 법을 한곳에 남기기 위해 |
 
-## 아직 못 한 것
+## 세션 시작 훅 끔
 
-- **세션 시작 훅 끄기**: `hooks/hooks.json`이 창을 열 때마다 `hooks/session-start`를 실행해 `using-superpowers` 내용을 주입한다. 내 PC는 훅 때문에 멈춘 기록이 있어 끄려 했으나, 2026-10-01 Claude의 자동 안전장치가 훅 설정 수정을 막았다. 끄기 전에는 내 Claude에 설치하지 않는다.
+- 원본 `hooks/hooks.json`은 창을 열 때마다 `hooks/session-start`를 실행해 `using-superpowers` 내용을 주입한다. 내 PC는 훅 때문에 멈춘 기록이 있어 `{"hooks": {}}`로 비웠다.
+- 2026-10-01 Claude의 자동 안전장치가 Claude의 훅 설정 수정을 막아서, 이 파일은 내가 직접 고쳤다.
+- Sync fork 뒤에 이 파일이 원본 내용으로 돌아오지 않았는지 꼭 확인한다. 돌아오면 훅이 다시 켜진다.
 
 ## 원본 업데이트 받기
 
